@@ -299,7 +299,7 @@ window.smartsupp||(function(d) {
         <footer class="footer-content ">
             <div class="container ">
                 <div class="row align-items-center justify-content-between">
-                    <div class="col-md-16 col-lg-8 col-xl-8">Copyright 2025 <a href="https://altsfolio.org" target="_blank" class="">altsfolio.org</a></div>
+                    <div class="col-md-16 col-lg-8 col-xl-8">Copyright 2025 <a href="https://icefolio.org" target="_blank" class="">icefolio.org</a></div>
                 </div>
             </div>
         </footer>
