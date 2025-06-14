@@ -1,6 +1,9 @@
 @php
     
     $page_title = 'Contact Us';
+
+    $siteName = 'Silveroak Holdings';
+$websiteLink = 'silveroakholding.com';
     $short_description = 'We are available 24/7. You can reach us via any of the means below.';
     
 @endphp
@@ -13,6 +16,9 @@
 
 
 @section('contents')
+
+{{-- breadcrumb --}}
+@include('pages.breadcrumb')
    <div data-elementor-type="wp-page" data-elementor-id="114" class="elementor elementor-114" data-elementor-post-type="page">
 				<div class="elementor-element elementor-element-d94f2d6 e-flex e-con-boxed e-con e-parent" data-id="d94f2d6" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
 					<div class="e-con-inner">

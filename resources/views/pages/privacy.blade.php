@@ -1,5 +1,6 @@
 @php
-    use App\Models\Bot;
+   $siteName = 'Silveroak Holdings';
+$websiteLink = 'silveroakholding.com';
     
     $page_title = 'Privacy Policy';
     $short_description = 'Prior to availing any of our services, we kindly request that you review and acknowledge our Privacy Policy. ';

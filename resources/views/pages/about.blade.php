@@ -3,6 +3,9 @@
 
 $page_title = 'About';
 
+$siteName = 'Silveroak Holdings';
+$websiteLink = 'silveroakholding.com';
+
 @endphp
 {{-- layout --}}
 @extends('layouts.front')
@@ -12,6 +15,9 @@ $page_title = 'About';
 
 
 @section('contents')
+
+{{-- breadcrumb --}}
+@include('pages.breadcrumb')
 <div data-elementor-type="wp-page" data-elementor-id="480" class="elementor elementor-480" data-elementor-post-type="page">
 				<div class="elementor-element elementor-element-a8693fe e-flex e-con-boxed e-con e-parent" data-id="a8693fe" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
 					<div class="e-con-inner">

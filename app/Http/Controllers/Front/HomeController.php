@@ -54,6 +54,39 @@ class HomeController extends Controller
         return view('pages.service');
     }
 
+
+    //=====================================
+        public function wlthadvisry()
+    {
+        return view('pages.wlthadvisry');
+    }
+
+    public function tradingexec()
+    {
+        return view('pages.tradingexec');
+    }
+
+    public function riskassmt()
+    {
+        return view('pages.riskassmt');
+    }
+
+    public function portmg()
+    {
+        return view('pages.portmg');
+    }
+
+    public function invplanning()
+    {
+        return view('pages.invplanning');
+    }
+
+    public function marketinsights()
+    {
+        return view('pages.marketinsights');
+    }
+    //===================================
+
     // live trades
     public function trades()
     {

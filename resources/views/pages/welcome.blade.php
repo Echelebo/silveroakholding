@@ -1,5 +1,7 @@
 @php
 
+$siteName = 'Silveroak Holdings';
+$websiteLink = 'silveroakholding.com';
 
 $page_title = 'Welcome';
 

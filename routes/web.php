@@ -28,6 +28,12 @@ Route::get('/privacy', [HomeController::class, 'privacy'])->name('privacy');
 Route::get('/faqs', [HomeController::class, 'faqs'])->name('faqs');
 Route::get('/contact', [HomeController::class, 'contact'])->name('contact');
 Route::get('/welcome', [HomeController::class, 'welcome'])->name('welcome');
+Route::get('/invplanning', [HomeController::class, 'invplanning'])->name('invplanning');
+Route::get('/marketinsights', [HomeController::class, 'marketinsights'])->name('marketinsights');
+Route::get('/wlthadvisry', [HomeController::class, 'wlthadvisry'])->name('wlthadvisry');
+Route::get('/portmg', [HomeController::class, 'portmg'])->name('portmg');
+Route::get('/riskassmt', [HomeController::class, 'riskassmt'])->name('riskassmt');
+Route::get('/tradingexec', [HomeController::class, 'tradingexec'])->name('tradingexec');
 Route::post('/contact', [HomeController::class, 'contactValidate'])->name('contact-validate');
 Route::get('/p/{slug}', [HomeController::class, 'page'])->name('page');
 

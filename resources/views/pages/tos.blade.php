@@ -1,6 +1,7 @@
 @php
 
-
+$siteName = 'Silveroak Holdings';
+$websiteLink = 'silveroakholding.com';
 $page_title = 'Terms of service';
 
 @endphp
@@ -13,6 +14,10 @@ $page_title = 'Terms of service';
 
 
 @section('contents')
+
+  {{-- breadcrumb --}}
+    @include('pages.breadcrumb')
+    
 <main>
 
 
