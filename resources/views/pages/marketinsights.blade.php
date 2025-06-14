@@ -1,8 +1,9 @@
 @php
-
-$page_title = 'Services ' . site('name');
+$siteName = 'Silveroak Holdings';
+$websiteLink = 'silveroakholding.com';
+$page_title = 'Market Insights';
 $short_description = site('name') . ' uses advanced Ai robots trained on extensive trading data and algorithms to analyze market trends and execute profitable trades with high precision.';
-
+$pageId = '617';
 @endphp
 
 {{-- layout --}}

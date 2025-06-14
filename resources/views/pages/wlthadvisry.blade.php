@@ -2,7 +2,7 @@
 
 $page_title = 'Wealth Advisory';
 $short_description = site('name') . ' uses advanced Ai robots trained on extensive trading data and algorithms to analyze market trends and execute profitable trades with high precision.';
-
+$pageId = '617';
 @endphp
 
 {{-- layout --}}

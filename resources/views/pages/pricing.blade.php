@@ -6,6 +6,8 @@ $page_title = 'AI Bot Pricing';
 $short_description = 'We have vering portfolio ranges for our bots. Select any hat best fits your pocket';
 $bots = Bot::get();
 
+$pageId = '295';
+
 @endphp
 
 {{-- layout --}}
@@ -17,8 +19,8 @@ $bots = Bot::get();
 
 @section('contents')
 
-  {{-- breadcrumb --}}
-    @include('pages.breadcrumb')
+{{-- breadcrumb --}}
+@include('pages.breadcrumb')
 <div data-elementor-type="wp-page" data-elementor-id="295" class="elementor elementor-295" data-elementor-post-type="page">
     <div class="elementor-element elementor-element-5c24357 e-flex e-con-boxed e-con e-parent" data-id="5c24357" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
         <div class="e-con-inner">
